@@ -228,6 +228,11 @@ let
       package = pkgs.htmx-lsp;
     }
     {
+      name = "idris";
+      description = "idris-lsp for Idris";
+      package = pkgs.idris2Packages.idris2Lsp;
+    }
+    {
       name = "intelephense";
       description = "intelephense for PHP";
       package = pkgs.nodePackages.intelephense;
